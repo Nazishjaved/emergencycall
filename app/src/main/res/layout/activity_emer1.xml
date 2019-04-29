@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Emer1"
+    android:layout_margin="20dp">
+
+
+
+    <Button
+        android:id="@+id/pol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+       android:textAlignment="center"
+        android:onClick="call"
+        android:text="Police "
+        android:background="#1e790f"
+        android:textColor="#fff"
+        android:textSize="19dp"/>
+
+    <Button
+        android:id="@+id/amb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:onClick="call"
+        android:text="Ambulence"
+        android:background="#1e790f"
+        android:textColor="#fff"
+        android:textSize="19dp"
+        />
+
+    <Button
+        android:id="@+id/Fireb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="call"
+        android:layout_marginBottom="6dp"
+        android:text="Fire Brigade "
+        android:background="#1e790f"
+        android:textColor="#fff"
+        android:textSize="19dp"/>
+
+
+    <Button
+        android:id="@+id/traf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+android:onClick="call"
+        android:text=" Traffic Helpline "
+        android:background="#1e790f"
+        android:textColor="#fff"
+        android:textSize="19dp"/>
+
+    <Button
+        android:id="@+id/bombd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:onClick="call"
+        android:text=" Bomb Disposal Squad "
+        android:background="#1e790f"
+        android:textColor="#fff"
+        android:textSize="19dp"/>
+
+</LinearLayout>
